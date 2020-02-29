@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    // toasts //
     public void showToast(View view) {
         // create the toast object
         Toast toast = Toast.makeText(this, R.string.toast_message, Toast.LENGTH_SHORT);
